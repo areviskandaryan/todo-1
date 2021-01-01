@@ -1,0 +1,17 @@
+.img{
+    padding:0;
+   
+}
+
+.spanCompleted {
+    text-decoration: line-through;
+}
+.spanUnCompleted{
+    text-decoration: none;
+
+}
+
+
+li {
+    list-style-type: none;
+}
