@@ -105,7 +105,7 @@ export default class ToDo extends Component {
             if (!task.isEdit) {
                 return (<li key={task.is} className={styles.li}>
                     <input type='checkbox' onClick={() => this.handleChecked(task.id)} className={styles.checkbox}/>
-                    <span className={task.checked ? styles.spanCompleted : styles.spanUnCompleted}
+                    <span className={task.checked ? `${styles.spanCompleted} ${styles.span}` : `${styles.span}`}
                           onClick={() => this.handleChangeEdit(task.id)}>
                 {task.value}
             </span>

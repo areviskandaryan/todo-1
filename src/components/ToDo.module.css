@@ -1,16 +1,15 @@
 .img{
     padding:0;
-   
+
 }
 
 .spanCompleted {
     text-decoration: line-through;
 }
-.spanUnCompleted{
-    text-decoration: none;
 
+.span {
+    color:red;
 }
-
 
 li {
     list-style-type: none;
